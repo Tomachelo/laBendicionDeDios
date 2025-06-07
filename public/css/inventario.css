@@ -195,7 +195,7 @@ img {
     }
 
     .herramienta__nuevo span{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -300,11 +300,11 @@ td{
     }
 
     .tabla__botones--venta{
-        width: 12rem;
+        width: 15rem;
     }
 
     .tabla__botones--eliminar{
-        width: 12rem;
+        width: 15rem;
     }
 }
 
