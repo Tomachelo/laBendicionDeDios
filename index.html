@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/normalize.css">
     <link rel="stylesheet" href="public/css/styles.css">
-    <title>Document</title>
+    <title>Papelería - La bendición de Dios</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__slogan">
+            <p class="header__texto">Papelería y café internet | La bendición de Dios</p>
+        </div>
+    </header>
+
+    <main class="contenedor__principal">
+        <section class="logo">
+        <div class="logo__contenedor">
+            <img class="logo__imagen" src="public/img/logo.svg" alt="logo_papeleria">
+        </div>
+        </section>
+
+        <section class="login">
+            <div class="login__contenedor">
+                <div class="login__datos">
+                    <div class="login__dato">
+                        <input class="login__input" type="text" placeholder="Ingrese el usuario">
+                    </div>
+                    <div class="login__dato">
+                        <input class="login__input" type="password" placeholder="Ingrese su contraseña">
+                    </div>
+                </div>
+                <div class="login__inicio">
+                    <div class="login__sesion">
+                        <a class="login__boton" href="#">Ingresar al sistema</a>
+                    </div>
+                    <div class="login__sesion">
+                        <a class="login__boton--registro" href="#">¿Olvido su contraseña?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenedor">
+            <p class="footer__texto">Versión 0.1.1</p>
+        </div>
+    </footer>
 </body>
 </html>
